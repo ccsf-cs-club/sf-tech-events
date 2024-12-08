@@ -1,0 +1,5 @@
+
+/node_modules
+/target
+tailwindcss
+.DS_Store

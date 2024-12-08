@@ -1,0 +1,46 @@
+<!-- START Navbar -->
+<!doctype html>
+<html lang="en" data-theme="light">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="SF Tech Events by CS Club" />
+		<meta name="viewport" content="width=device-width" />
+		<title>SF Tech Events</title>
+		<link
+		  rel="stylesheet"
+		  href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+		>
+		<script src="https://unpkg.com/htmx.org@2.0.3" integrity="sha384-0895/pl2MU10Hqc6jd4RvrthNlDiE9U1tWmX7WRESftEDRosgxNsQG/Ze9YMRzHq" crossorigin="anonymous"></script>
+	</head>
+  <main class="container">
+  	<body>
+
+    <article>
+      <header>
+        <a href="https://lu.ma/z5uee731">
+          BAML Workshops: Advanced Prompt Engineering Techniques (SF)
+        </a>
+      </header>
+      <form>
+        <input type="hidden" id="title" name="title" value="BAML Workshops: Advanced Prompt Engineering Techniques (SF)" />
+        <input type="hidden" id="city_state" name="city_state" value="San Francisco" />
+        <button 
+          hx-post="/api/event_details/luma/z5uee731"}
+          hx-swap="outerHTML"
+        >
+          Scrape
+        </button>
+      </form>
+      <footer>Boundary</footer>
+    </article>
+    <a 
+      role="button" 
+      style="width: 100%;"
+      class="secondary"
+    >
+      Get More
+    </a>
+    <br />
+  	</body>
+  </main>
+</html>

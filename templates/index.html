@@ -1,0 +1,43 @@
+<!-- START Navbar -->
+<!doctype html>
+<html lang="en" data-theme="light">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="SF Tech Events by CS Club" />
+		<meta name="viewport" content="width=device-width" />
+		<title>SF Tech Events</title>
+		<link
+		  rel="stylesheet"
+		  href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+		>
+		<script src="https://unpkg.com/htmx.org@2.0.3" integrity="sha384-0895/pl2MU10Hqc6jd4RvrthNlDiE9U1tWmX7WRESftEDRosgxNsQG/Ze9YMRzHq" crossorigin="anonymous"></script>
+	</head>
+  <main class="container">
+  	<body>
+      <nav>
+        <ul>
+          <li><h1>SF Events</h1></li>
+        </ul>
+        <ul>
+          <li><a href="/scraping" role="button" class="secondary" style="width: 100%;">Scraping UI</a></li>
+        </ul>
+      </nav>
+      <br />
+      <!-- END Navbar -->
+      <!-- START Events Table -->
+      <table class="striped">
+        <thead data-theme="dark">
+          <tr>
+            <th scope="col">Name</th>
+            <th scope="col" style="width: 150px;">Date</th>
+            <th scope="col">Food</th>
+            <th scope="col">Coding</th>
+            <th scope="col">Prizes</th>
+            <th scope="col">Action</th>
+          </tr>
+        </thead>
+      </table>
+      <!-- END Events Table -->
+  	</body>
+  </main>
+</html>
